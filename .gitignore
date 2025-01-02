@@ -1,0 +1,16 @@
+# Envirement Variables
+.env
+
+
+# Virtual Envirements
+venv/
+
+
+# Log Files
+
+*.log
+
+
+# Mac System Files
+
+.DS_Store
