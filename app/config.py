@@ -8,24 +8,16 @@ from dotenv import load_dotenv
 # Load DB envirement variable
 load_dotenv()
 
-DB_HOST = os.getenv("DB_HOST")
-DB_PORT = os.getenv("DB_PORT")
-DB_NAME= os.getenv("DB_NAME")
 
-client = MongoClient(f"mongodb://{DB_HOST}:{DB_PORT}/")
+# Set base directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
-# client = MongoClient("mongodb://localhost:27017/")
+DB_HOST = os.getenv('DB_HOST')
+DB_PORT = os.getenv('DB_PORT')
+DB_NAME= os.getenv('DB_NAME')
 
-# Choose the database (or create one if it doesn't exist)
-db = client['P1']
+client = MongoClient(f'mongodb://{DB_HOST}:{DB_PORT}/')
 
-# Choose a collection (or create one if it doesn't exist)
-collection = db['User']
 
-# Example: Insert a document into the collection
-document = {"name": "John Doe", "age": 30}
-collection.insert_one(document)
-result = collection.find_one({"name": "John Doe"})
-print(result)
 # Set up logging configurations
