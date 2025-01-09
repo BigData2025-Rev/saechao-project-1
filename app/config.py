@@ -4,20 +4,22 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 
 
-
-# Load DB envirement variable
 load_dotenv()
-
-
-# Set base directory
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-
 DB_HOST = os.getenv('DB_HOST')
 DB_PORT = os.getenv('DB_PORT')
 DB_NAME= os.getenv('DB_NAME')
 
-client = MongoClient(f'mongodb://{DB_HOST}:{DB_PORT}/')
+logging.basicConfig(
+    filename='logs/app.log',
+    level = logging.INFO,
+    format = '%(asctime)s - %(levelname)s - %(message)s'
+)
 
 
-# Set up logging configurations
+def get_db():
+    client = MongoClient(f'mongodb://{DB_HOST}:{DB_PORT}/')
+    return client[DB_NAME]
+
+def log_event(event):
+    logging.info(event)
+

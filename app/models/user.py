@@ -26,3 +26,16 @@ class User:
     
     def delete_user(self, user_id):
         return self.users.delete_one({'_id': user_id})
+    
+    def get_userID(self, user_id):
+        return self.users.find_one({'_id': user_id})
+
+    def get_all_user(self):
+        return list(self.users.find())
+
+    def delete_user(self, user_id):
+        return self.users.delete_one({'_id': user_id})
+    
+    def add_admin(self,user_id):
+        return self.update_user(user_id, {'role': 'admin'})
+    
