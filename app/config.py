@@ -19,7 +19,8 @@ logging.basicConfig(
 def get_db():
     """Returns reference to data base"""
     client = MongoClient(f'mongodb://{DB_HOST}:{DB_PORT}/')
-    return client[DB_NAME]
+    return client[DB_NAME.lower()] 
+
 
 def log_event(event):
     """Helper function to easily log interactions"""

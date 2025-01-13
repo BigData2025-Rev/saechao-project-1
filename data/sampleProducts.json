@@ -1,0 +1,213 @@
+[
+    {
+      "name": "Apple",
+      "price": 2.5,
+      "stock": 150,
+      "category": "Fruits"
+    },
+    {
+      "name": "Banana",
+      "price": 1.2,
+      "stock": 200,
+      "category": "Fruits"
+    },
+    {
+      "name": "Orange",
+      "price": 3.0,
+      "stock": 180,
+      "category": "Fruits"
+    },
+    {
+      "name": "Grapes",
+      "price": 4.0,
+      "stock": 100,
+      "category": "Fruits"
+    },
+    {
+      "name": "Pineapple",
+      "price": 5.0,
+      "stock": 60,
+      "category": "Fruits"
+    },
+    {
+      "name": "Carrot",
+      "price": 1.5,
+      "stock": 120,
+      "category": "Vegetables"
+    },
+    {
+      "name": "Broccoli",
+      "price": 2.0,
+      "stock": 80,
+      "category": "Vegetables"
+    },
+    {
+      "name": "Spinach",
+      "price": 1.8,
+      "stock": 150,
+      "category": "Vegetables"
+    },
+    {
+      "name": "Potato",
+      "price": 1.0,
+      "stock": 250,
+      "category": "Vegetables"
+    },
+    {
+      "name": "Tomato",
+      "price": 2.5,
+      "stock": 180,
+      "category": "Vegetables"
+    },
+    {
+      "name": "Milk",
+      "price": 1.3,
+      "stock": 300,
+      "category": "Dairy"
+    },
+    {
+      "name": "Cheese",
+      "price": 4.5,
+      "stock": 100,
+      "category": "Dairy"
+    },
+    {
+      "name": "Butter",
+      "price": 3.0,
+      "stock": 150,
+      "category": "Dairy"
+    },
+    {
+      "name": "Yogurt",
+      "price": 1.8,
+      "stock": 200,
+      "category": "Dairy"
+    },
+    {
+      "name": "Cream",
+      "price": 2.0,
+      "stock": 90,
+      "category": "Dairy"
+    },
+    {
+      "name": "Chips",
+      "price": 2.0,
+      "stock": 250,
+      "category": "Snacks"
+    },
+    {
+      "name": "Cookies",
+      "price": 3.0,
+      "stock": 180,
+      "category": "Snacks"
+    },
+    {
+      "name": "Granola Bars",
+      "price": 1.5,
+      "stock": 220,
+      "category": "Snacks"
+    },
+    {
+      "name": "Pretzels",
+      "price": 1.8,
+      "stock": 300,
+      "category": "Snacks"
+    },
+    {
+      "name": "Candy",
+      "price": 0.9,
+      "stock": 500,
+      "category": "Snacks"
+    },
+    {
+      "name": "Soda",
+      "price": 1.0,
+      "stock": 400,
+      "category": "Beverages"
+    },
+    {
+      "name": "Juice",
+      "price": 2.5,
+      "stock": 150,
+      "category": "Beverages"
+    },
+    {
+      "name": "Water",
+      "price": 0.5,
+      "stock": 1000,
+      "category": "Beverages"
+    },
+    {
+      "name": "Tea",
+      "price": 3.0,
+      "stock": 200,
+      "category": "Beverages"
+    },
+    {
+      "name": "Coffee",
+      "price": 4.0,
+      "stock": 120,
+      "category": "Beverages"
+    },
+    {
+      "name": "Chicken Breast",
+      "price": 5.0,
+      "stock": 300,
+      "category": "Meats"
+    },
+    {
+      "name": "Ground Beef",
+      "price": 6.0,
+      "stock": 150,
+      "category": "Meats"
+    },
+    {
+      "name": "Pork Chops",
+      "price": 4.5,
+      "stock": 200,
+      "category": "Meats"
+    },
+    {
+      "name": "Salmon Fillet",
+      "price": 8.0,
+      "stock": 80,
+      "category": "Meats"
+    },
+    {
+      "name": "Turkey",
+      "price": 7.0,
+      "stock": 100,
+      "category": "Meats"
+    },
+    {
+      "name": "Bacon",
+      "price": 5.5,
+      "stock": 250,
+      "category": "Meats"
+    },
+    {
+      "name": "Ribeye Steak",
+      "price": 12.0,
+      "stock": 50,
+      "category": "Meats"
+    },
+    {
+      "name": "Lamb Chops",
+      "price": 15.0,
+      "stock": 30,
+      "category": "Meats"
+    },
+    {
+      "name": "Chicken Thighs",
+      "price": 4.0,
+      "stock": 180,
+      "category": "Meats"
+    },
+    {
+      "name": "Duck Breast",
+      "price": 10.0,
+      "stock": 40,
+      "category": "Meats"
+    }
+  ]
+  

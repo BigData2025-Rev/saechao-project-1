@@ -2,6 +2,7 @@ from ..models.user import User
 from app.config import log_event
 
 class UserService:
+    """"Business logic for Users"""
     def __init__(self,db):
         self.user = User(db)
 
@@ -10,8 +11,8 @@ class UserService:
         log_event(f"User {username} created with ID {user_id}.")
         return user_id
 
-    def get_user(self, username: str):
-        return self.user.get_user(username)
+    def get_user(self, username: str, password: str):
+        return self.user.get_user(username, password)
 
     def get_all_user(self):
         return list(self.user.get_all_user())
@@ -24,4 +25,10 @@ class UserService:
     def delete_user(self, user_id: str):
         result = self.user.delete_user(user_id)
         log_event(f"User {user_id} deleted.")
+        return result
+    
+
+    def add_admin(self, user_id: str):
+        result = self.user.add_admin(user_id)
+        log_event(f"User {user_id} Added to Admin.")
         return result
